@@ -135,19 +135,19 @@ Strict-Transport-Security: max-age=604800
       "type": "http-01",
       "url": "https://acme-v02.api.letsencrypt.org/acme/chall-v3/383107822037/ctD62Q",
       "status": "pending",
-      "token": "_AGgw5TuDpwUECLqS6ttykhtqD12rWX7IhOi6fgf-53VW28A"
+      "token": "xxxxxx-xxxxxx"
     },
     {
       "type": "dns-01",
       "url": "https://acme-v02.api.letsencrypt.org/acme/chall-v3/383107822037/XC_bIA",
       "status": "pending",
-      "token": "_AGgw5TuDpwUECLqStbkkkkyk6tqD12rWX7IhOi6fgf-53VW28A"
+      "token": "xxxxx-xxxxxx"
     },
     {
       "type": "tls-alpn-01",
       "url": "https://acme-v02.api.letsencrypt.org/acme/chall-v3/383107822037/VuyJew",
       "status": "pending",
-      "token": "_AGgw5TuDpwUECLqS6tqDtbktykiy12rWX7IhOi6fgf-53VW28A"
+      "token": "xxxxxx-xxxxx"
     }
   ]
 }
@@ -185,7 +185,7 @@ Strict-Transport-Security: max-age=604800
   "type": "http-01",
   "url": "https://acme-v02.api.letsencrypt.org/acme/chall-v3/383107822037/ctD62Q",
   "status": "pending",
-  "token": "_AGgw5TuDpwUECLqS6tqD12rWX7IhOi6fgf-53VW28A"
+  "token": "xxxxx-xxxxx"
 }
 2024-07-28 21:49:25,514:DEBUG:acme.client:Storing nonce: 26MCSEckXyjtetjjwFuf36rwDjDVCrcgZ3jSmDLxxAr0x87uOZRfpU8KM
 2024-07-28 21:49:25,514:INFO:certbot._internal.auth_handler:Waiting for verification...
@@ -230,7 +230,7 @@ Strict-Transport-Security: max-age=604800
         "detail": "2001:1568::14: Invalid response from http://xxxxxxx/.well-known/acme-challenge/_AGgw5TuDpwUECLqS6tqD12rWX7IhOi6fgf-53VW28A: 404",
         "status": 403
       },
-      "token": "_AGgw5TuDpwUECLqS6tqD12rWX7IhOi6fgf-53VW28A",
+      "token": "xxxxxx-xxxxxxx",
       "validationRecord": [
         {
           "url": "http://xxxxxxx/.well-known/acme-challenge/_AGgw5TuDpwUECLqS6tqD12rWX7IhOi6fgf-53VW28A",
